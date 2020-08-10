@@ -1,0 +1,28 @@
+.list {
+  background-color: #5b7c90;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.list p {
+  color: white;
+  font-size: 17px;
+  padding: 14px 7px;
+}
+
+.list h4 {
+  color: white;
+  font-size: 17px;
+  padding: 14px 10px;
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+
+.list h4:hover {
+  color: red;
+}
